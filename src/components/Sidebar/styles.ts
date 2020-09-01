@@ -5,7 +5,7 @@ import { Search } from '../../styles/icons';
 export const Container = styled.div`
     display: none;
 
-    @media( min-width: 100px){
+    @media( min-width: 1000px){
         display: flex;
         flex-direction: column;
 
