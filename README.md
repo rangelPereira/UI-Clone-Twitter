@@ -6,7 +6,7 @@ UI Clone - Twitter
   o projeto trata-se de um clone da interface da rede social Twitter contando com responsividade e tecnologias atuais.</p>
 
 <p align="center">
-  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rangelPereira/proffy-betaa?style=for-the-badge&logo=typescript">
+  <img alt="GitHub top language" src="https://img.shields.io/github/languages/top/rangelPereira/clone-Twitter?style=for-the-badge&logo=typescript">
   <img alt="Made by Rocketseat" src="https://img.shields.io/badge/made%20by-Rocketseat-%237519C1?style=for-the-badge"><br/>
   <img alt="Code by RangelPereira" src="https://img.shields.io/badge/Code%20by-RangelPereira-%237519C1?style=for-the-badge"><br/>
 </p>
