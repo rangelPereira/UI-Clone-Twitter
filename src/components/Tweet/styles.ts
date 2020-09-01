@@ -11,6 +11,10 @@ export const Container = styled.div`
   border-bottom: 1px solid var(--outline);
 
   max-width: 100%;
+
+  &:hover{
+    background:var(--twitter-dark-hover);
+  }
 `;
 
 export const Retweeted = styled.div`
@@ -104,9 +108,7 @@ export const ImageContent = styled.div`
     border-radius:14px;
 
     cursor: pointer;
-    &:hover{
-        opacity: 0.8;
-    }
+
 `;
 
 export const Icons = styled.div`

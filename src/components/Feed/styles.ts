@@ -26,4 +26,9 @@ export const Tweets = styled.div`
     flex-direction: column;
 
     flex-shrink: 0;
+    margin-bottom: 46px;
+
+    @media(min-width: 500px) {
+        margin-bottom: 0;
+    }
 `;

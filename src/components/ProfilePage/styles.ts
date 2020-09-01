@@ -22,7 +22,7 @@ export const Banner = styled.div`
     width: 100%;
     height: min(33vh, 199px);
 
-    background: var(--twitter);
+    background: #2f3336;
 
     position: relative;
 `;
@@ -33,6 +33,7 @@ export const Avatar = styled.div`
 
     border: 3.75px solid var(--primary);
     background: var(--gray);
+
     border-radius: 50%;
 
     position: absolute;
