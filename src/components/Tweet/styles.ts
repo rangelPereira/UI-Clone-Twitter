@@ -104,7 +104,7 @@ export const ImageContent = styled.div`
     width: 100%;
     height: min(285px, max(175px, 41vw));
 
-    background: var(--outline);
+    background: #2f3336;
     border-radius:14px;
 
     cursor: pointer;

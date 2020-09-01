@@ -21,8 +21,10 @@ export default createGlobalStyle`
       border: 0;
       background: none;
       font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-      transition: all 0.2s;
 
+  }
+  *:hover{
+    transition: all 0.2s;
   }
 
   html{
@@ -34,7 +36,7 @@ export default createGlobalStyle`
     --search: #202327;
     --white: #D9D9D9;
     --gray: #7A7A7A;
-    --outline: #2F3336;
+    --outline: #6f3c28;
     --retweet: #00C06B;
     --like: #e2255b;
     --twitter: #f55f24;

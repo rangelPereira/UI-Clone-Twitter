@@ -55,11 +55,14 @@ export const MenuButton = styled.button`
     align-items: center;
     flex-shrink: 0;
 
+
     > span {
         display: none;
     }
 
     @media (min-width: 1280px) {
+        padding: 8.25px 15px;
+
         >span{
             display: inline;
             margin-left: 19px;
@@ -67,7 +70,6 @@ export const MenuButton = styled.button`
             font-weight: bold;
             font-size: 19px;
         }
-        padding-right: 15px;
     }
 
     padding: 8.25px 0;
@@ -133,3 +135,54 @@ export const FavoriteIcon = styled(FavoriteBorder)`${iconCSS}`;
 
 export const ProfileIcon = styled(Person)`${iconCSS}`;
 
+
+export const BotSide = styled.div`
+    margin-top: 20px;
+
+    display:flex;
+    align-items:center;
+`;
+export const Avatar = styled.div`
+    width:39px;
+    height: 39px;
+
+    flex-shrink: 0;
+
+    border-radius:50%;
+    background: var(--gray);
+
+`;
+export const ProfileData = styled.div`
+    display: none;
+
+    @media(min-width: 1280px){
+        display: flex;
+        flex-direction: column;
+
+        margin-left: 10px;
+        font-size: 14px;
+
+        >span{
+            color: var(--gray);
+        }
+    }
+`;
+
+export const ExitIcon = styled(ExitToApp)`
+    display: none;
+
+    @media(min-width: 1280px){
+        display: inline-block;
+        width: 25px;
+        height: 25px;
+        color: var(--white);
+        margin-left: 30px;
+        cursor: pointer;
+
+        &:hover {
+            > path {
+                color: var(--like);
+            }
+        }
+    }
+`;

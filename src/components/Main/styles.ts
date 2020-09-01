@@ -9,7 +9,6 @@ export const Container = styled.div`
 
     @media (min-width: 500px) {
         border-left: 1px solid var(--outline);
-        border-right: 1px solid var(--outline);
     }
 `;
 
@@ -52,6 +51,7 @@ export const ProfileInfo = styled.div`
 
     display: flex;
     flex-direction: column;
+    align-items: start;
 
     >strong{
         font-size:19px;
